@@ -61,6 +61,7 @@ a:focus {
 .tlinks{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
 .tm-navbar { float: right; }
 .tm-navbar-bg {
+	
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-align: center;
@@ -70,7 +71,7 @@ a:focus {
 	padding-left: 10px;
 	padding-right: 10px;
 	background-color: rgba(255,255,255,0.7);
-	overflow: auto;
+	overflow: visible;
 }
 
 .navbar-toggler {
@@ -277,11 +278,15 @@ button:focus { outline: none; }
 	margin-top: 10px;
 	font-weight: 400;
 	font-size: 2.5rem;
+	-webkit-box-shadow: inset 0 -4px 0 #2a6496;
+    box-shadow: inset 0 -4px 0 #2a6496;
+    border-radius: 10px;
 }
 
 .tm-submit-btn:hover,
 .tm-submit-btn:focus {
 	background-color: #2277EE;
+	
 }
 
 textarea { height: 168px; }
@@ -870,3 +875,28 @@ figure.effect-bubba:hover p {
 	.tm-2-col-textbox-2 { margin-right: 15px; }
 	#google-map { height: 520px; }
 }
+	.music{
+		position: relative;
+		margin: -30px;
+		bottom: -37px;
+	}
+	.classmate{
+		position: absolute;
+		font-family: Arial,Helvetica,sans-serif;
+    font-size: 187%;
+    line-height: 68em;
+    color: #4E4E7E;
+    padding: 0;
+    left: 0;
+	}
+	#skPlayer .skPlayer-list{
+		opacity: 0.5;
+	}
+	#skPlayer .skPlayer-list li{
+		display: block;
+	}
+	.iconfont.icon-chakanzhaopian{
+		font-size: 100px;
+		opacity: .6;
+
+	}
