@@ -23,7 +23,7 @@ jQuery(document).ready(function($){
 		});
 		
 		//change visible slide
-		sliderNav.on('click', 'li', function(event){
+		sliderNav.on('click', 'li.nav-item', function(event){
 			event.preventDefault();
 			var selectedItem = $(this);
 			if(!selectedItem.hasClass('selected')) {
@@ -69,7 +69,7 @@ jQuery(document).ready(function($){
 	function updateSliderNavigation(pagination, n) {
 		var navigationDot = pagination.find('.selected');
 		navigationDot.removeClass('selected');
-		pagination.find('li').eq(n).addClass('selected');
+		pagination.find('li.nav-item').eq(n).addClass('selected');
 	}
 
 	function setAutoplay(wrapper, length, delay) {

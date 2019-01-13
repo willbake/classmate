@@ -696,3 +696,11 @@ Javascript disabled
 .no-js .cd-slider-nav {
   display: none;
 }
+.one{
+  height: 472.95px;
+}
+.img-fluid.tm-img{
+  position: relative;
+  width: 320ox;
+  height: 240px;
+}
